@@ -1,0 +1,3 @@
+# ImageAI
+
+## Project for university
