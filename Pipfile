@@ -10,6 +10,8 @@ tensorflow = "*"
 opencv-python = "*"
 keras = "*"
 imageai = "*"
+cloudsight = "*"
+pillow = "*"
 
 [requires]
 python_version = "3.7"
