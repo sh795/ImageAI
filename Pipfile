@@ -12,6 +12,7 @@ keras = "*"
 imageai = "*"
 cloudsight = "*"
 pillow = "*"
+art = "*"
 
 [requires]
 python_version = "3.7"
