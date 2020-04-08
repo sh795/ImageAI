@@ -8,30 +8,46 @@ import os.path
 
 import cloudsight
 
-def consoleText() :
-    Art = text2art("ImageAI")
-    print(Art)
-    print("Welcome to ImageAI, developed by Saif Hussain for Computational Creativity. \n")
-    # print ()
-    print("The purpose of this program is to describe images to the user. \n")
-    # print ()
-    print ("This is to allow visually impaired individuals the ability to understand what is happening in an image. \n")
-    # print ()
+import time
 
-def userInput() :
-    numImages = input("How many images would you like to describe? ")
+Art = text2art("ImageAI")
+
+print(Art)
+
+print("Welcome to ImageAI, developed by Saif Hussain for Computational Creativity. \n")
+
+print("The purpose of this program is to describe images to the user. \n")
+
+print ("This is to allow visually impaired individuals the ability to understand what is happening in an image. \n")
+
+numImages = input("How many images would you like to describe? ")
     # global numImages
-    numImages = int(numImages)
-    return numImages
+numImages = int(numImages)
+
+# def consoleText() :
+#     Art = text2art("ImageAI")
+#     print(Art)
+#     print("Welcome to ImageAI, developed by Saif Hussain for Computational Creativity. \n")
+#     # print ()
+#     print("The purpose of this program is to describe images to the user. \n")
+#     # print ()
+#     print ("This is to allow visually impaired individuals the ability to understand what is happening in an image. \n")
+#     # print ()
+
+# def userInput() :
+#     numImages = input("How many images would you like to describe? ")
+#     # global numImages
+#     numImages = int(numImages)
+#     return numImages
 
 def main() :
-    value = userInput()
+    # value = userInput()
 
     auth = cloudsight.SimpleAuth('gqPvkvZfv_mAwMO3Kaa9Zw')
 
     api = cloudsight.API(auth)
 
-    for x in range(value):
+    for x in range(numImages):
         string = str(x)
         file = string + '.jpg'
         if os.path.exists(file) == False:
@@ -51,6 +67,7 @@ def main() :
         # print(status['name'])
         print("Preparing text to speech. \n")
         textSpeech(output)
+        # cleanFiles()
 
 
 def textSpeech(output) :
@@ -62,5 +79,29 @@ def textSpeech(output) :
 
     os.system("open speech.mp3")
 
-consoleText()
+def cleanFiles() :
+    print("Cleaning directory. \n")
+    if os.path.exists("speech.mp3") == False:
+        print("Directory cleaned. Exiting Loop \n")
+
+    if os.path.exists("speech.mp3") == True:
+        os.remove("speech.mp3")
+        print("Directory cleaned. Exiting Loop \n")
+
+    for x in range(numImages):
+        string = str(x)
+        cleanFiles = string + 'cloudsight.jpg'
+        if os.path.exists(cleanFiles) == False:
+            print("Directory cleaned. Exiting Loop \n")
+            break
+        os.remove(cleanFiles)
+        print ("Directory cleaned.")
+
+def wait() :
+    time.sleep(5)
+
+
+# consoleText()
 main()
+wait()
+cleanFiles()
