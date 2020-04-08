@@ -13,6 +13,7 @@ imageai = "*"
 cloudsight = "*"
 pillow = "*"
 art = "*"
+gtts = "*"
 
 [requires]
 python_version = "3.7"

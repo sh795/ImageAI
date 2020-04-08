@@ -1,5 +1,9 @@
 from PIL import Image
 from art import *
+from gtts import gTTS
+
+import os
+
 import os.path
 
 import cloudsight
@@ -20,7 +24,7 @@ def userInput() :
     numImages = int(numImages)
     return numImages
 
-def getPrediction() :
+def main() :
     value = userInput()
 
     auth = cloudsight.SimpleAuth('gqPvkvZfv_mAwMO3Kaa9Zw')
@@ -42,8 +46,21 @@ def getPrediction() :
             response = api.image_request(f, string + 'cloudsight.jpg', {'image_request[locale]': 'en-US', })
             status = api.wait(response['token'], timeout=30)
 
-        print(status['name'])
-        print()
+        output = status['name']
+        print(output)
+        # print(status['name'])
+        print("Preparing text to speech. \n")
+        textSpeech(output)
+
+
+def textSpeech(output) :
+    language = 'en'
+
+    speak = gTTS(text = output, lang = language, slow = False)
+
+    speak.save("speech.mp3")
+
+    os.system("open speech.mp3")
 
 consoleText()
-getPrediction()
+main()
