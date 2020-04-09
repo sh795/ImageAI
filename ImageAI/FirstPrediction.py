@@ -10,6 +10,8 @@ import cloudsight
 
 import time
 
+import requests
+
 Art = text2art("ImageAI")
 
 print(Art)
@@ -100,8 +102,25 @@ def cleanFiles() :
 def wait() :
     time.sleep(5)
 
+def dadJoke(string) :
+    url = 'https://icanhazdadjoke.com/search?term='
+    listString = string.split()
+    last = len(listString) - 1
+    print(last)
+    for i, x in enumerate(listString):
+        print(i)
+        if i == last:
+            url = url + x
+            print("hit")
+        else:
+            url = url + x + '&'
+    url = 'https://icanhazdadjoke.com/search?term=asphalt'
+    response = requests.get(url, headers={"Accept": "text/plain"})
+    print(response.text)
 
-# consoleText()
-main()
-wait()
-cleanFiles()
+
+
+# main()
+# wait()
+# cleanFiles()
+dadJoke()

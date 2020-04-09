@@ -15,6 +15,7 @@ pillow = "*"
 art = "*"
 gtts = "*"
 time = "*"
+requests = "*"
 
 [requires]
 python_version = "3.7"
