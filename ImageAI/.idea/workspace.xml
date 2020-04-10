@@ -15,10 +15,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FirstPrediction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="104" column="18" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
+            <state relative-caret-position="405">
+              <caret line="126" column="46" selection-start-line="126" selection-start-column="46" selection-end-line="126" selection-end-column="46" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#2385#2936#0" />
               </folding>
             </state>
           </provider>
@@ -40,7 +41,7 @@
     <option name="x" value="640" />
     <option name="y" value="23" />
     <option name="width" value="640" />
-    <option name="height" value="711" />
+    <option name="height" value="713" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -89,15 +90,16 @@
       <option name="presentableId" value="Default" />
       <updated>1586271465638</updated>
       <workItem from="1586271467233" duration="7847000" />
-      <workItem from="1586442046233" duration="3489000" />
+      <workItem from="1586442046233" duration="3526000" />
+      <workItem from="1586530194583" duration="4122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11336000" />
+    <option name="totallyTimeSpent" value="15495000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="640" y="23" width="640" height="711" extended-state="0" />
+    <frame x="640" y="23" width="640" height="713" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24958949" />
@@ -129,10 +131,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/FirstPrediction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="104" column="18" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
+        <state relative-caret-position="405">
+          <caret line="126" column="46" selection-start-line="126" selection-start-column="46" selection-end-line="126" selection-end-column="46" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#2385#2936#0" />
           </folding>
         </state>
       </provider>
