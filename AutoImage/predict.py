@@ -13,12 +13,12 @@ import time
 import requests
 
 # Fancy art for console
-Art = text2art("ImageAI")
+Art = text2art("AutoImage")
 
 print(Art)
 
 # Short description of program shown to the user in the console
-print("Welcome to ImageAI, developed by Saif Hussain for Computational Creativity. \n")
+print("Welcome to AutoImage, developed by Saif Hussain for Computational Creativity. \n")
 
 print("The purpose of this program is to describe images to the user. \n")
 
