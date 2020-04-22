@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e62d739-b0b7-4edc-aa76-9cbd77c2bc01" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/FirstPrediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/FirstPrediction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,17 +13,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/FirstPrediction.py">
+        <entry file="file://$PROJECT_DIR$/predict.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="133" column="15" selection-start-line="133" selection-start-column="15" selection-end-line="133" selection-end-column="15" />
-              <folding>
-                <element signature="e#574#1518#0" />
-                <element signature="e#1550#1693#0" />
-                <element signature="e#1718#2269#0" />
-                <element signature="e#2288#2301#0" />
-                <element signature="e#2329#2765#0" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -31,12 +24,13 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/FirstPrediction.py" />
+        <option value="$PROJECT_DIR$/predict.py" />
       </list>
     </option>
   </component>
@@ -46,6 +40,7 @@
     <option name="width" value="640" />
     <option name="height" value="711" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -56,8 +51,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="ImageAI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ImageAI" type="462c0819:PsiDirectoryNode" />
+              <item name="AutoImage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoImage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -96,17 +91,18 @@
       <workItem from="1586442046233" duration="3526000" />
       <workItem from="1586530194583" duration="4303000" />
       <workItem from="1586603822683" duration="2453000" />
+      <workItem from="1587563113087" duration="152000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18129000" />
+    <option name="totallyTimeSpent" value="18281000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="640" y="23" width="640" height="711" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24958949" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24916388" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -133,17 +129,11 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FirstPrediction.py">
+    <entry file="file://$PROJECT_DIR$/FirstPrediction.py" />
+    <entry file="file://$PROJECT_DIR$/predict.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="133" column="15" selection-start-line="133" selection-start-column="15" selection-end-line="133" selection-end-column="15" />
-          <folding>
-            <element signature="e#574#1518#0" />
-            <element signature="e#1550#1693#0" />
-            <element signature="e#1718#2269#0" />
-            <element signature="e#2288#2301#0" />
-            <element signature="e#2329#2765#0" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
