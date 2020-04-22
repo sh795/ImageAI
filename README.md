@@ -17,6 +17,9 @@ To install the packages do the following command.
 ```pipenv install --ignore-pipfile```
 
 To run the file, do the following.
-```pipenv shell
+
+```
+pipenv shell
 cd AutoImage
-python predict.py```
+python predict.py
+```
