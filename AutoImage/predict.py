@@ -35,7 +35,7 @@ numImages = int(numImages)
 def main() :
 
     # Make API call for authentication with API key
-    auth = cloudsight.SimpleAuth('gqPvkvZfv_mAwMO3Kaa9Zw')
+    auth = cloudsight.SimpleAuth('OMITTED')
 
     api = cloudsight.API(auth)
 
